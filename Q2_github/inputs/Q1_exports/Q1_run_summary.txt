@@ -1,0 +1,83 @@
+FMAT3888 Question 1 numerical run summary (not final report prose)
+Assets: ASA52 Index, NDDLWI Index, NDLEEGF Index, RDAU Index, FDCIISAH Index, HEDGNAV Index, BACM0 Index, H03432AU Index, BAUBIL Index
+Monthly baseline follows the agreed common-frequency design. HEDGNAV unchanged observations:
+  Daily: 96.7134%; median change gap 31.0 calendar days.
+  Weekly: 77.0524%; median change gap 28.0 calendar days.
+  Monthly: 0.0000%; median change gap 31.0 calendar days.
+Monthly repeats across nine assets: 0; internal missing observations: 0.
+Higher-frequency dates therefore do not always carry new information. Leading missingness denotes shorter available history.
+Common price period: 2005-12-30 to 2026-08-31; 249 prices.
+Return period: 2006-01-31 to 2026-08-31; 248 monthly returns.
+Simple return R_t = P_t/P_(t-1) - 1. No missing-value filling or zero-return deletion.
+Annualisation: mean x12; covariance x12; volatility x sqrt(12). Sample covariance/SD use ddof=1. Correlation unchanged.
+                    Metric             Value
+Maximum_absolute_asymmetry                 0
+       Numerical_tolerance 1.73126411379e-14
+                 Symmetric              True
+        Minimum_eigenvalue 2.86364409374e-05
+     Positive_semidefinite              True
+           Matrix_modified             False
+Eigenvalues: 2.86364409374e-05, 0.000251998219818, 0.000800485650115, 0.00187436032232, 0.00274899422743, 0.00435911479914, 0.00702211405624, 0.0195030811803, 0.0866324490858
+Parameter stability: period estimates (decimal rates):
+            Period          Asset  Mean_Monthly_Return  Annualised_Expected_Return  Monthly_Volatility  Annualised_Volatility First_return_date Last_return_date  Return_observations  Mean_change_vs_full  Vol_change_vs_full
+Full common sample    ASA52 Index             0.006819                    0.081833            0.039836               0.137997        2006-01-31       2026-08-31                  248             0.000000            0.000000
+Full common sample   NDDLWI Index             0.007976                    0.095713            0.040687               0.140945        2006-01-31       2026-08-31                  248             0.000000            0.000000
+Full common sample  NDLEEGF Index             0.008002                    0.096020            0.046465               0.160960        2006-01-31       2026-08-31                  248             0.000000            0.000000
+Full common sample     RDAU Index             0.003953                    0.047436            0.057628               0.199631        2006-01-31       2026-08-31                  248             0.000000            0.000000
+Full common sample FDCIISAH Index             0.007930                    0.095157            0.033076               0.114579        2006-01-31       2026-08-31                  248             0.000000            0.000000
+Full common sample  HEDGNAV Index             0.004547                    0.054567            0.015247               0.052816        2006-01-31       2026-08-31                  248             0.000000            0.000000
+Full common sample    BACM0 Index             0.003362                    0.040348            0.010787               0.037369        2006-01-31       2026-08-31                  248             0.000000            0.000000
+Full common sample H03432AU Index             0.003551                    0.042607            0.010024               0.034724        2006-01-31       2026-08-31                  248             0.000000            0.000000
+Full common sample   BAUBIL Index             0.002740                    0.032886            0.001631               0.005650        2006-01-31       2026-08-31                  248             0.000000            0.000000
+   Recent 10 years    ASA52 Index             0.008217                    0.098598            0.038680               0.133991        2016-09-30       2026-08-31                  120             0.016765           -0.004006
+   Recent 10 years   NDDLWI Index             0.011224                    0.134682            0.040100               0.138910        2016-09-30       2026-08-31                  120             0.038969           -0.002036
+   Recent 10 years  NDLEEGF Index             0.009429                    0.113152            0.042250               0.146358        2016-09-30       2026-08-31                  120             0.017133           -0.014602
+   Recent 10 years     RDAU Index             0.004026                    0.048307            0.063072               0.218488        2016-09-30       2026-08-31                  120             0.000872            0.018858
+   Recent 10 years FDCIISAH Index             0.007083                    0.084998            0.036740               0.127271        2016-09-30       2026-08-31                  120            -0.010159            0.012692
+   Recent 10 years  HEDGNAV Index             0.005201                    0.062411            0.013793               0.047782        2016-09-30       2026-08-31                  120             0.007844           -0.005034
+   Recent 10 years    BACM0 Index             0.001393                    0.016718            0.012843               0.044490        2016-09-30       2026-08-31                  120            -0.023630            0.007121
+   Recent 10 years H03432AU Index             0.000820                    0.009842            0.010890               0.037726        2016-09-30       2026-08-31                  120            -0.032765            0.003002
+   Recent 10 years   BAUBIL Index             0.001848                    0.022174            0.001320               0.004571        2016-09-30       2026-08-31                  120            -0.010711           -0.001079
+    Recent 5 years    ASA52 Index             0.006753                    0.081039            0.035948               0.124526        2021-09-30       2026-08-31                   60            -0.000795           -0.013471
+    Recent 5 years   NDDLWI Index             0.010156                    0.121866            0.040487               0.140252        2021-09-30       2026-08-31                   60             0.026153           -0.000694
+    Recent 5 years  NDLEEGF Index             0.009258                    0.111098            0.045111               0.156268        2021-09-30       2026-08-31                   60             0.015078           -0.004692
+    Recent 5 years     RDAU Index             0.002474                    0.029690            0.055869               0.193536        2021-09-30       2026-08-31                   60            -0.017745           -0.006095
+    Recent 5 years FDCIISAH Index             0.005772                    0.069267            0.040549               0.140466        2021-09-30       2026-08-31                   60            -0.025890            0.025887
+    Recent 5 years  HEDGNAV Index             0.005769                    0.069225            0.011192               0.038771        2021-09-30       2026-08-31                   60             0.014657           -0.014045
+    Recent 5 years    BACM0 Index             0.000012                    0.000149            0.015551               0.053871        2021-09-30       2026-08-31                   60            -0.040199            0.016502
+    Recent 5 years H03432AU Index            -0.000549                   -0.006586            0.012922               0.044762        2021-09-30       2026-08-31                   60            -0.049193            0.010039
+    Recent 5 years   BAUBIL Index             0.002681                    0.032167            0.001295               0.004486        2021-09-30       2026-08-31                   60            -0.000719           -0.001164
+Matrix stability summaries:
+            Period  Return_observations  Average_pairwise_correlation  Mean_abs_correlation_change  Max_abs_correlation_change  Relative_covariance_Frobenius_change
+Full common sample                  248                      0.305622                     0.000000                    0.000000                              0.000000
+   Recent 10 years                  120                      0.392624                     0.116341                    0.294498                              0.181633
+    Recent 5 years                   60                      0.480050                     0.220733                    0.641258                              0.227397
+Rolling windows: 189, from 2010-12-31 to 2026-08-31, 60 observations each.
+Average pairwise rolling correlation range: 0.1416 to 0.4801.
+Rolling annualised parameter ranges (decimal rates):
+                Mean_min  Mean_max   Vol_min   Vol_max  Mean_range  Vol_range
+Asset                                                                        
+ASA52 Index    -0.029795  0.148283  0.106624  0.167425    0.178077   0.060800
+NDDLWI Index   -0.032036  0.178610  0.088868  0.182353    0.210646   0.093485
+NDLEEGF Index   0.006171  0.157647  0.099751  0.225405    0.151476   0.125655
+RDAU Index     -0.146086  0.196620  0.110599  0.276981    0.342706   0.166382
+FDCIISAH Index  0.038415  0.183697  0.076088  0.157902    0.145282   0.081814
+HEDGNAV Index   0.003605  0.087033  0.030817  0.074430    0.083428   0.043614
+BACM0 Index    -0.005204  0.080391  0.024991  0.056732    0.085595   0.031741
+H03432AU Index -0.011150  0.090530  0.026004  0.046089    0.101680   0.020085
+BAUBIL Index    0.009399  0.055462  0.001002  0.005687    0.046063   0.004685
+Implication: the displayed period differences and rolling ranges show that estimated inputs vary over time. Subsequent portfolio construction should compare allocations under these alternative inputs; optimisation sensitivity is not measured in Q1.
+Review: annualised means are arithmetic estimates, not CAGR. Calendar month-end source dates sometimes fall on the last business day.
+Review: unchanged monthly levels do not independently prove freshness or absence of index smoothing.
+Supplied files do not establish currency comparability or price/total-return treatment for every index; confirm definitions before portfolio use.
+No covariance repair performed. Symmetry and PSD checks pass.
+Recent windows omitted if insufficient observations: []
+Preliminary audit reconciliation: True
+Official requirements checked:
+Requirement                                                    Addressed                                           Evidence
+      Q1(a)        History, missingness, repeats and effective frequency           Q1a_Data_Audit; Q1a_Frequency_Comparison
+      Q1(b)      Monthly simple returns, common period and justification Q1b_Return_Summary; clean returns CSV; run summary
+      Q1(c)   Annualised mean and covariance, volatility and correlation                  Q1c sheets; baseline CSV; heatmap
+      Q1(d)       Symmetry, all eigenvalues, PSD and numerical tolerance         Q1d_Covariance_Validation; Q1d_Eigenvalues
+      Q1(e) Recent periods, rolling estimates and portfolio implications           Q1e sheets; rolling figures; run summary
+Source SHA256: 0441477d277505722f0f39bc0c0a572889f55024123c3c8d9ff4c4e1e9edaa28

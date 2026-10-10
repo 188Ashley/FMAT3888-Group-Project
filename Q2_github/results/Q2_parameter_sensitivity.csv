@@ -1,0 +1,106 @@
+model,case,portfolio,half_L1_allocation_distance
+Full sample,Baseline: 50% cap,GMV,0
+Full sample,Baseline: 50% cap,0.03,0
+Full sample,Baseline: 50% cap,0.04,0
+Full sample,Baseline: 50% cap,0.05,0
+Full sample,Baseline: 50% cap,0.06,0
+Full sample,Baseline: 50% cap,0.07,0
+Full sample,Baseline: 50% cap,0.08,0
+Full sample,Baseline: 50% cap,0.09,0
+Full sample,Baseline: 50% cap,0.095,0
+Full sample,Uncapped benchmark,GMV,0
+Full sample,Uncapped benchmark,0.03,0
+Full sample,Uncapped benchmark,0.04,0
+Full sample,Uncapped benchmark,0.05,0
+Full sample,Uncapped benchmark,0.06,0
+Full sample,Uncapped benchmark,0.07,0
+Full sample,Uncapped benchmark,0.08,0
+Full sample,Uncapped benchmark,0.09,0
+Full sample,Uncapped benchmark,0.095,0
+Full sample,Comparison: 40% cap,GMV,0
+Full sample,Comparison: 40% cap,0.03,0
+Full sample,Comparison: 40% cap,0.04,0
+Full sample,Comparison: 40% cap,0.05,0
+Full sample,Comparison: 40% cap,0.06,0
+Full sample,Comparison: 40% cap,0.07,0
+Full sample,Comparison: 40% cap,0.08,0
+Full sample,Comparison: 40% cap,0.09,0
+Full sample,Comparison: 40% cap,0.095,0
+Full sample,Comparison: 30% cap,GMV,0
+Full sample,Comparison: 30% cap,0.03,0
+Full sample,Comparison: 30% cap,0.04,0
+Full sample,Comparison: 30% cap,0.05,0
+Full sample,Comparison: 30% cap,0.06,0
+Full sample,Comparison: 30% cap,0.07,0
+Full sample,Comparison: 30% cap,0.08,0
+Full sample,Comparison: 30% cap,0.09,0
+Recent 10 years,Baseline: 50% cap,GMV,0.10221099631196361
+Recent 10 years,Baseline: 50% cap,0.03,0.083826912024246622
+Recent 10 years,Baseline: 50% cap,0.04,0.23589351040106391
+Recent 10 years,Baseline: 50% cap,0.05,0.48064063888957692
+Recent 10 years,Baseline: 50% cap,0.06,0.75868863673312525
+Recent 10 years,Baseline: 50% cap,0.07,0.8975829860876865
+Recent 10 years,Baseline: 50% cap,0.08,0.94885761844244787
+Recent 10 years,Baseline: 50% cap,0.09,0.79299700844082355
+Recent 10 years,Baseline: 50% cap,0.095,0.71542215015884436
+Recent 10 years,Uncapped benchmark,GMV,0.012603353610312428
+Recent 10 years,Uncapped benchmark,0.03,0.13570402366369244
+Recent 10 years,Uncapped benchmark,0.04,0.245696373319435
+Recent 10 years,Uncapped benchmark,0.05,0.48064063888957692
+Recent 10 years,Uncapped benchmark,0.06,0.7586886367331267
+Recent 10 years,Uncapped benchmark,0.07,0.89758298608768694
+Recent 10 years,Uncapped benchmark,0.08,1.0000000000000022
+Recent 10 years,Uncapped benchmark,0.09,1.0000000000000016
+Recent 10 years,Uncapped benchmark,0.095,1.0000000000000018
+Recent 10 years,Comparison: 40% cap,GMV,0.1213534435101928
+Recent 10 years,Comparison: 40% cap,0.03,0.07695000074728478
+Recent 10 years,Comparison: 40% cap,0.04,0.22582876845171973
+Recent 10 years,Comparison: 40% cap,0.05,0.38933623227823672
+Recent 10 years,Comparison: 40% cap,0.06,0.75027214340965154
+Recent 10 years,Comparison: 40% cap,0.07,0.89393675814012741
+Recent 10 years,Comparison: 40% cap,0.08,0.8387236513151517
+Recent 10 years,Comparison: 40% cap,0.09,0.63458851689377926
+Recent 10 years,Comparison: 40% cap,0.095,0.50738503521760014
+Recent 10 years,Comparison: 30% cap,GMV,0.096454408549087697
+Recent 10 years,Comparison: 30% cap,0.03,0.10917248334484234
+Recent 10 years,Comparison: 30% cap,0.04,0.22116032596377724
+Recent 10 years,Comparison: 30% cap,0.05,0.36055509289694582
+Recent 10 years,Comparison: 30% cap,0.06,0.57729235955291702
+Recent 10 years,Comparison: 30% cap,0.07,0.73246420540027557
+Recent 10 years,Comparison: 30% cap,0.08,0.62815821235286751
+Recent 10 years,Comparison: 30% cap,0.09,0.49117291248613659
+Recent 5 years,Baseline: 50% cap,GMV,0.14378087914847182
+Recent 5 years,Baseline: 50% cap,0.03,0.14378087914847182
+Recent 5 years,Baseline: 50% cap,0.04,0.15148076187875231
+Recent 5 years,Baseline: 50% cap,0.05,0.47056764414565566
+Recent 5 years,Baseline: 50% cap,0.06,0.75578775789268593
+Recent 5 years,Baseline: 50% cap,0.07,0.87191164557318845
+Recent 5 years,Baseline: 50% cap,0.08,0.90360008261093661
+Recent 5 years,Baseline: 50% cap,0.09,0.73562832038771497
+Recent 5 years,Baseline: 50% cap,0.095,0.68395214597108245
+Recent 5 years,Uncapped benchmark,GMV,0.017222992967465371
+Recent 5 years,Uncapped benchmark,0.03,0.017222992967465371
+Recent 5 years,Uncapped benchmark,0.04,0.18885717092182305
+Recent 5 years,Uncapped benchmark,0.05,0.48064063888957731
+Recent 5 years,Uncapped benchmark,0.06,0.75868863673312603
+Recent 5 years,Uncapped benchmark,0.07,0.89758298608768716
+Recent 5 years,Uncapped benchmark,0.08,0.99906736020778786
+Recent 5 years,Uncapped benchmark,0.09,0.96616129283669849
+Recent 5 years,Uncapped benchmark,0.095,0.94970825915114743
+Recent 5 years,Comparison: 40% cap,GMV,0.17347965052737968
+Recent 5 years,Comparison: 40% cap,0.03,0.17347965052737968
+Recent 5 years,Comparison: 40% cap,0.04,0.20190504053359476
+Recent 5 years,Comparison: 40% cap,0.05,0.35246194864162572
+Recent 5 years,Comparison: 40% cap,0.06,0.68897714556266876
+Recent 5 years,Comparison: 40% cap,0.07,0.86042295932436974
+Recent 5 years,Comparison: 40% cap,0.08,0.7930987002777905
+Recent 5 years,Comparison: 40% cap,0.09,0.6182023610747821
+Recent 5 years,Comparison: 40% cap,0.095,0.48261072292537327
+Recent 5 years,Comparison: 30% cap,GMV,0.11987493877362887
+Recent 5 years,Comparison: 30% cap,0.03,0.079350216711033345
+Recent 5 years,Comparison: 30% cap,0.04,0.22082778064726963
+Recent 5 years,Comparison: 30% cap,0.05,0.35129428498606646
+Recent 5 years,Comparison: 30% cap,0.06,0.55814030223358624
+Recent 5 years,Comparison: 30% cap,0.07,0.69033869872839593
+Recent 5 years,Comparison: 30% cap,0.08,0.6304920711101526
+Recent 5 years,Comparison: 30% cap,0.09,0.44907181585436984

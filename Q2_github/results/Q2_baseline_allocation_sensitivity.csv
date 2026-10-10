@@ -1,0 +1,28 @@
+model,portfolio,half_L1_distance_from_full
+Full sample,0.03,0
+Full sample,0.04,0
+Full sample,0.05,0
+Full sample,0.06,0
+Full sample,0.07,0
+Full sample,0.08,0
+Full sample,0.09,0
+Full sample,0.095,0
+Full sample,GMV,0
+Recent 10 years,0.03,0.083826912024246622
+Recent 10 years,0.04,0.23589351040106391
+Recent 10 years,0.05,0.48064063888957692
+Recent 10 years,0.06,0.75868863673312525
+Recent 10 years,0.07,0.8975829860876865
+Recent 10 years,0.08,0.94885761844244787
+Recent 10 years,0.09,0.79299700844082355
+Recent 10 years,0.095,0.71542215015884436
+Recent 10 years,GMV,0.10221099631196361
+Recent 5 years,0.03,0.14378087914847182
+Recent 5 years,0.04,0.15148076187875231
+Recent 5 years,0.05,0.47056764414565566
+Recent 5 years,0.06,0.75578775789268593
+Recent 5 years,0.07,0.87191164557318845
+Recent 5 years,0.08,0.90360008261093661
+Recent 5 years,0.09,0.73562832038771497
+Recent 5 years,0.095,0.68395214597108245
+Recent 5 years,GMV,0.14378087914847182
