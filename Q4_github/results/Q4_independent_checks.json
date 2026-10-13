@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": {
+    "benchmark_mean_error": 0.0,
+    "benchmark_volatility_error": 0.0,
+    "normal_utility_identity_relative_error": 8.850715377788206e-16,
+    "MC_gradient_finite_difference_error": 5.4788971970420874e-11,
+    "sampled_utility_transform_relative_error": 4.3433113726650323e-16,
+    "bootstrap_mean_reconstruction_error": 0.0,
+    "bootstrap_covariance_reconstruction_error": 0.0,
+    "saved_bootstrap_constraint_error": 8.903988657493755e-13
+  },
+  "bootstrap_reconstruction_samples": 20,
+  "saved_rows_constraints_checked": true
+}
