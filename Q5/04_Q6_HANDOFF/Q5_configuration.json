@@ -1,0 +1,69 @@
+{
+  "asset_order": [
+    "ASA52 Index",
+    "NDDLWI Index",
+    "NDLEEGF Index",
+    "RDAU Index",
+    "FDCIISAH Index",
+    "HEDGNAV Index",
+    "BACM0 Index",
+    "H03432AU Index",
+    "BAUBIL Index"
+  ],
+  "growth_fractions": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.5,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "targets": {
+    "Defensive": 0.3,
+    "Balanced": 0.7,
+    "Aggressive": 0.9
+  },
+  "estimation_months": 60,
+  "oos_months": 12,
+  "t0_years": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "annualisation": {
+    "mean_multiplier": 12,
+    "covariance_multiplier": 12,
+    "ddof": 1
+  },
+  "constraints": {
+    "sum_weights": 1,
+    "lower": 0,
+    "upper": 0.5
+  },
+  "oos_strategy": "fixed-weight monthly rebalancing; annual target update; no transaction costs",
+  "units": {
+    "returns_means_volatility_weights": "decimal",
+    "covariance": "annualised decimal return squared"
+  },
+  "solver": {
+    "feasible_start": "HiGHS",
+    "method": "SLSQP",
+    "objective_scale": 100,
+    "ftol": 1e-12,
+    "maxiter": 10000,
+    "primal_tolerance": 1e-08,
+    "global_variance_gap_tolerance": 1e-08,
+    "relative_global_variance_gap_tolerance": 1e-06
+  },
+  "classification_assumption": "Q3 classifications retained retrospectively; full-sample statistical rationale is a potential look-ahead limitation"
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "optimisations": 30,
+  "windows": 10,
+  "historical_window_count": 60,
+  "oos_window_count": 12,
+  "oos_unique_months": 120,
+  "max_equality_error": 8.881784197001252e-16,
+  "max_bound_error": 0.0,
+  "max_global_variance_gap_bound": 1.6465734922791794e-09,
+  "max_relative_global_variance_gap_bound": 8.585229163149078e-07,
+  "input_unchanged": true,
+  "input_sha256": {
+    "interdisciplinary project instructions.pdf": "dd134b9ac44bd39ca536b28e4c108050f4c93a14f2d4ebdcf52915906d463852",
+    "Q1_clean_monthly_returns.csv": "482d78b785cb519bef8b497497eae0bca23f8c1be1423d34621dafe8889855b2",
+    "Q1_full_analysis.py": "02f8886ec80a4f7271bd224c84ec3d07bdc10b2c39f3190f88211062e7e37b62",
+    "Q1_report.pdf": "7cdc8289226b477ba3cdbbb4b5f16d889b4b03194141958e069aefaaa1ad9e0f",
+    "Q1_results.xlsx": "a6c3b7a617107436871031a857cd8886c85fe88e0a0d81529e7240fc17242151",
+    "Q2_baseline_config.json": "054b8bcfa07628daba617e8e316dda6a8a34454af88a2e0f8804a950aae1d10b",
+    "Q2_Complete_Report.pdf": "15671de978ca3acd21af43af817044078ed49090a6eba2c509d56da39a88ff4e",
+    "Q2_full_analysis.py": "ee2f1055b6bc3836d0f80f2e309ffe69b48cf5c92257a159eb59e478cb87a47a",
+    "Q3_full_analysis.py": "d26903f22de5855843f5a0aabdea3ceb5f00661d654c29f4fc7e2be6cb73a4be",
+    "Q3_report.pdf": "62f7a052c36f4372b673dd46e84ce01a9c53fa72af571b5617728a9acb07f553"
+  },
+  "code_sha256": "a4124f2bc7d4fd1ed8cd019a1e547f34f8281d102d49f11edac8ca684d6664cd",
+  "versions": {
+    "python": "3.12.6",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "matplotlib": "3.9.2"
+  },
+  "checks": [
+    "60/12 month counts",
+    "December included; OOS starts January",
+    "no temporal overlap",
+    "no full-sample moments used",
+    "exact asset order",
+    "annualisation cross-check",
+    "solver success and bounds/equalities",
+    "convex global optimality certificate",
+    "fixed-weight returns",
+    "recursive wealth cross-check",
+    "nonempty exports and no missing CSV cells"
+  ]
+}
