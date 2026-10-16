@@ -1,0 +1,33 @@
+{
+  "saa_name": "Balanced",
+  "growth_target": 0.7,
+  "estimation_months": 60,
+  "rebalancing_frequency": "Monthly",
+  "gamma": 5.0,
+  "tactical_deviation": 0.1,
+  "min_weight": 0.0,
+  "max_weight": 0.5,
+  "transaction_cost": 0.0,
+  "asset_order": [
+    "ASA52 Index",
+    "NDDLWI Index",
+    "NDLEEGF Index",
+    "RDAU Index",
+    "FDCIISAH Index",
+    "HEDGNAV Index",
+    "BACM0 Index",
+    "H03432AU Index",
+    "BAUBIL Index"
+  ],
+  "growth_fractions": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.5,
+    0.0,
+    0.0,
+    0.0
+  ]
+}
